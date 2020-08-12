@@ -1,0 +1,14 @@
+@import './variables';
+html {
+    @include pageHeight();
+    body {
+        margin: 0;
+        @include pageHeight();
+        #root {
+            @include pageHeight();
+            background: 
+                linear-gradient(217deg,black, rgba(0, 0, 0, 0)),
+                linear-gradient(127deg,black, red 70%);
+        }
+    }
+}

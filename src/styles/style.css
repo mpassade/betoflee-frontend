@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+
+html body {
+  margin: 0;
+  height: 100%;
+}
+
+html body #root {
+  height: 100%;
+  background: linear-gradient(217deg, black, rgba(0, 0, 0, 0)), linear-gradient(127deg, black, red 70%);
+}
+
+.bg-imgs {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-imgs .cover {
+  mix-blend-mode: screen;
+  width: 10%;
+  max-height: 100%;
+  padding-left: 30%;
+}
+/*# sourceMappingURL=style.css.map */
