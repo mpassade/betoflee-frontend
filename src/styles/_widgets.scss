@@ -1,0 +1,6 @@
+.widgets {
+    display: flex;
+    height: 3.5em;
+    width: 100%;
+    @import './widget';
+}

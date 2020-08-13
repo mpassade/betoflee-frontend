@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header'
-import Nav from './Nav'
+import Search from './Search'
+import Widgets from './Widgets'
 
 class App extends Component {
   
@@ -8,7 +9,10 @@ class App extends Component {
     return (
       <>
         <Header/>
-        <Nav/>
+        <div className='nav'>
+          <Search/>
+          <Widgets/>
+        </div>
       </>
     )
   }

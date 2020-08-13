@@ -25,15 +25,25 @@ html body #root {
 }
 
 .nav {
-  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
   margin: auto;
-  padding-top: 3rem;
+  margin-top: 3rem;
 }
 
 .nav .searchbox {
   display: block;
-  width: 50%;
-  height: 1.8em;
+  width: 45%;
+  height: 1.6em;
   font-size: 1em;
   margin: auto;
   text-align: center;
@@ -44,5 +54,24 @@ html body #root {
 
 .nav .searchbox:focus {
   outline: none;
+}
+
+.nav .widgets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.5em;
+  width: 100%;
+}
+
+.nav .widgets .widget {
+  width: 45%;
+  height: 1.75em;
+  font-size: 1em;
+  display: block;
+  margin: auto;
+  background: black;
+  color: #666666;
+  border: 1px solid #b40c0c;
 }
 /*# sourceMappingURL=style.css.map */
