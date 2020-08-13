@@ -9,6 +9,6 @@
     background: black url('/images/search.png') no-repeat 0 50%;
     border: 1px solid #b40c0c;
     &:focus {
-        outline: none;
+        outline: 1px solid red;
     }
 }

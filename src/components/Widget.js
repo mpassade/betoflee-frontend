@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Widget = (props) => {
     return (
@@ -8,6 +9,10 @@ const Widget = (props) => {
             {props.text}
         </button>
     )
+}
+
+Widget.propTypes = {
+    text: PropTypes.string
 }
 
 export default Widget

@@ -53,7 +53,7 @@ html body #root {
 }
 
 .nav .searchbox:focus {
-  outline: none;
+  outline: 1px solid red;
 }
 
 .nav .widgets {
@@ -73,5 +73,32 @@ html body #root {
   background: black;
   color: #666666;
   border: 1px solid #b40c0c;
+}
+
+.nav .widgets .widget:focus {
+  outline: 1px solid red;
+}
+
+.sidebar {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  right: 0;
+  top: 5rem;
+  background: black;
+  border-left: 1px solid #b40c0c;
+  border-bottom: 1px solid #b40c0c;
+  height: 40rem;
+  width: 30%;
+}
+
+.sidebar .option {
+  height: 8rem;
+  border-top: 1px solid #b40c0c;
 }
 /*# sourceMappingURL=style.css.map */
