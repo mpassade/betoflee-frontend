@@ -3,6 +3,11 @@
   src: url("/fonts/urban-heroes.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'Night Hunter';
+  src: url("/fonts/night-hunter.ttf") format("truetype");
+}
+
 html {
   height: 100%;
 }
@@ -100,5 +105,17 @@ html body #root {
 .sidebar .option {
   height: 8rem;
   border-top: 1px solid #b40c0c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8b0808;
+  font-size: 3em;
+  font-family: 'Night Hunter';
 }
 /*# sourceMappingURL=style.css.map */

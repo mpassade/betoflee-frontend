@@ -5,11 +5,21 @@ class Sidebar extends Component {
     render(){
         return (
             <div className='sidebar'>
-                <Option/>
-                <Option/>
-                <Option/>
-                <Option/>
-                <Option/>
+                <Option
+                    text='Top Songs'
+                />
+                <Option
+                    text='Mixtapes'
+                />
+                <Option
+                    text='Singles'
+                />
+                <Option
+                    text='Featured On'
+                />
+                <Option
+                    text='All Songs'
+                />
             </div>
         )
     }
